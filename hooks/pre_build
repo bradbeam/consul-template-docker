@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --rm -v "$PWD":/usr/src/certdump -w /usr/src/certdump golang:latest go build -v
